@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Courier New', monospace;
+    background-color: black;
+    color: #00ff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#container {
+    text-align: center;
+    position: relative;
+}
+
+#hacker-img {
+    width: 300px;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+#text-box {
+    border: 1px solid #00ff00;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+#display-text {
+    font-size: 24px;
+    margin: 0;
+}
